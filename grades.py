@@ -59,7 +59,7 @@ xlabel_grades_list=Note
 ylabel_number_list=[]
 #计算纵坐标的值
 for i in xlabel_grades_list:
-	ylabel_number_list.append(grades.count(i))
+	ylabel_number_list.append(grades_list.count(i))
 plt.title('The total number of students is '+str(len(grades_list)))
 #设置X轴Y轴名称  
 plt.xlabel("grades")  
